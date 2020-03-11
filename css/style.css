@@ -120,3 +120,13 @@ img{
     height: auto;
     border-radius : 5px;
 }
+
+h4{
+    margin: 0px;
+    text-align: left;
+}
+
+p{
+    margin: 0px;
+    text-align: left;
+}

@@ -1,0 +1,143 @@
+############### Record 1 #############################
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yts</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" media="screen and (min-device-width: 320px) and (max-device-width: 768px)" type="text/css" href="./css/mobile-style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="myapp ">
+		<div class="part1">
+			<input id="inputField" type="text" name="text" placeholder="Search here...">
+			<button type="submit" id="submitBtn"><i class="fa fa-search"></i></button>
+		</div>
+		<div class="part2">
+			<!-- <p>Welcome to Videos Store</p> -->
+			<!-- <div class="row" id="myRow">
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div> -->
+
+				
+			<!-- </div>
+			<div class="row">
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+				<div class="col3">
+					<img src="./images/video2.png" alt="Video">
+					<h4>TITLE</h4>
+            		<p><span>3 Days Ago</span> By <a href="#">Enter Link</a></p>
+					
+				</div>
+
+				
+			</div> -->
+		</div>
+	</div>
+	<script type="text/javascript" src="./scripts/script.js" defer></script>
+
+</body>
+</html>
+
+#################################################################################################################
+
