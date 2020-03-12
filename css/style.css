@@ -4,7 +4,7 @@ body{
 
 .myapp{
 	display: flex;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	flex-direction: column;
 	height: 100vh;
 }
@@ -12,7 +12,7 @@ body{
 .part1{
     width: auto;
     height: 30%;
-    border : 2px solid blue;
+    /* border : 2px solid blue; */
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -31,7 +31,7 @@ body{
 	    width: 30%;
 	    height: 10%;
 	    margin: auto;
-	    border: 1px solid grey;
+	    /* border: 1px solid grey; */
 	    padding: 10px;
 	    font-size: 15px;
 }
@@ -45,7 +45,7 @@ body{
 	    width: 5%;
 	    height: 21%;
 	    margin: auto;
-	    border: 1px solid grey;
+	    /* border: 1px solid grey; */
 	    padding: 10px;
 	    font-size: 20px;
 	    cursor: pointer;
@@ -54,13 +54,13 @@ body{
 }
 
 
-.part2{
-    width: auto;
+/* .part2{ */
+    /* width: auto; */
     /*height: 70%;*/
-    border : 2px solid blue;
-    margin-bottom: 10px;
-    padding: 10px;
-}
+    /* border : 2px solid blue; */
+    /* margin-bottom: 10px; */
+    /* padding: 10px; */
+/* } */
 
 .part2>p{
 	font-size: 25px;
@@ -69,18 +69,19 @@ body{
 
 .container{
     width: 100%;
-    border : 2px solid blue;
+    /* border : 2px solid blue; */
     margin-bottom: 10px;
     padding: 10px;
 }
 
 .row{
     display: flex;
+    /* flex-wrap: wrap; */
     flex: 1;
     /* text-align: center; */
     height: auto;
     width: auto;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     margin-bottom: 10px;
     padding: 10px;
     overflow: auto;
@@ -88,16 +89,17 @@ body{
 
 
 .col3{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     float: left;
-    width: 15%;
+    width: 20%;
     height: auto;
     margin: 5px;
     background-color: #e46868;
+    border-radius: 5px;
 }
 
 .col3Img{
-	border: 2px solid green;
+	/* border: 2px solid green; */
     float: left;
     width: 35%;
     height: auto;
@@ -106,7 +108,7 @@ body{
 }
 
 .col3Text{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     right: 0px;
     float: left;
     width: 60%;
