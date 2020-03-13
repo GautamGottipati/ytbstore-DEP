@@ -59,52 +59,61 @@ var getData = function(){
 	if(trial>0){
 		removeRows();
 	}
-	console.log("Hello world");
-	let enteredText = inputField.value;
-	inputField.value = "";
-	console.log(`Entered Text = ${enteredText}`);
-    let apiUrl = `https://www.googleapis.com/youtube/v3/search?key=AIzaSyAYpGAy_3C7wQ1d9tLnvi1j731TGaTw09I&type=video&part=snippet&maxResults=17&q=${enteredText}`;
-    let text = inputField1.nodeValue;
-    console.log("here is your data "+ text);
-    fetch(apiUrl).then(response =>{
-        return response.json();
-    }).then(responseData =>{
-        console.log("Printing");
-        console.log(responseData);
-		myData = responseData.items;
-		let mRow = creatRow();
-		var part2Tag = document.querySelector(".part2");
-		// part2Tag.remove(mRow);
-		part2Tag.appendChild(mRow);
-		let numberOfVideos = 5;
-		let i = 0;
-        for(posts of myData){
-			myRemainingVideos.push(posts);
-			console.log("Came inside for loops");
-			// if(i<numberOfVideos){
-			// 	myFirstData.push(posts);
-			// 	myRemainingVideos.push(posts);
-			// 	console.log(i);
-			// 	console.log(posts.id.videoId);
-			// 	let colnum = addingImg(posts.snippet.title,posts.snippet.thumbnails.medium.url,posts.snippet.title,posts.snippet.publishedAt,posts.id.videoId);
-			// 	mRow.appendChild(colnum);
-			// 	i++;
-
-			// }
-			// else{
-			// 	console.log("Added elements:"+myRemainingVideos.push(posts));
-			// }
-			
+	try{
+		console.log("Hello world");
+		let enteredText = inputField.value;
+		enteredText = enteredText.trim();
+		let text_length = enteredText.length
+		inputField.value = "";
+		if(text_length===0){
+			console.log("Error occured");
+			throw "Please enter something";
 		}
-		changePage(1);
+		console.log(`Entered Text = ${enteredText}`);
+		let apiUrl = `https://www.googleapis.com/youtube/v3/search?key=AIzaSyAYpGAy_3C7wQ1d9tLnvi1j731TGaTw09I&type=video&part=snippet&maxResults=17&q=${enteredText}`;
+		let text = inputField1.nodeValue;
+		console.log("here is your data "+ text);
+		fetch(apiUrl).then(response =>{
+			return response.json();
+		}).then(responseData =>{
+			console.log("Printing");
+			console.log(responseData);
+			myData = responseData.items;
+			let mRow = creatRow();
+			var part2Tag = document.querySelector(".part2");
+			// part2Tag.remove(mRow);
+			part2Tag.appendChild(mRow);
+			let numberOfVideos = 5;
+			let i = 0;
+			for(posts of myData){
+				myRemainingVideos.push(posts);
+				console.log("Came inside for loops");
+				// if(i<numberOfVideos){
+				// 	myFirstData.push(posts);
+				// 	myRemainingVideos.push(posts);
+				// 	console.log(i);
+				// 	console.log(posts.id.videoId);
+				// 	let colnum = addingImg(posts.snippet.title,posts.snippet.thumbnails.medium.url,posts.snippet.title,posts.snippet.publishedAt,posts.id.videoId);
+				// 	mRow.appendChild(colnum);
+				// 	i++;
 
-		console.log("First page")
-		console.log(myFirstData);
-		console.log("Next pages");
-		console.log(myRemainingVideos);
-		trial++;
-    })
+				// }
+				// else{
+				// 	console.log("Added elements:"+myRemainingVideos.push(posts));
+				// }
+				
+			}
+			changePage(1);
 
+			console.log("First page")
+			console.log(myFirstData);
+			console.log("Next pages");
+			console.log(myRemainingVideos);
+			trial++;
+		})
+	}catch(e){
+		console.log(e);
+	}
 }
 
 function creatRow(){

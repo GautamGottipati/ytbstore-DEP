@@ -132,3 +132,32 @@ p{
     margin: 0px;
     text-align: left;
 }
+
+.bottom>button{
+    width: 5%;
+    font-size: large;
+    font-weight: bold;
+    /* font-family:'Times New Roman'; */
+    float: left;
+    margin: 10px;
+    height: 50px;
+    background-color: burlywood;
+    border-radius: 100px;
+ 
+}
+
+.bottom>button:hover{
+    background-color: wheat;
+    color: tomato;
+    cursor: pointer;
+}
+
+#btn_next{
+    float: right;
+}
+
+hr{
+    height: 10px;
+    background-color: burlywood;
+    border-radius: 100px;
+}
