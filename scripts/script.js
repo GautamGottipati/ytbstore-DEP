@@ -207,7 +207,8 @@ function changePage(page)
     page_span.innerHTML = page;
 
     if (page == 1) {
-        prevBtn.style.visibility = "hidden";
+		prevBtn.style.visibility = "hidden";
+		// document.getElementById("button").style.visibility = ""
     } else {
         prevBtn.style.visibility = "visible";
     }

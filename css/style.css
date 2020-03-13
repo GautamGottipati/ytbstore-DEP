@@ -133,6 +133,10 @@ p{
     text-align: left;
 }
 
+.bottom{
+    visibility: hidden;
+}
+
 .bottom>button{
     width: 5%;
     font-size: large;
@@ -143,6 +147,7 @@ p{
     height: 50px;
     background-color: burlywood;
     border-radius: 100px;
+    visibility: hidden;
  
 }
 
